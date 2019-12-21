@@ -48,11 +48,11 @@ Tags that really showcase how powerful tagscript can be
 
 ## Utility tags
 
-!!! info "!report - A way to report misbehavior by The Chain Warden#8790"
+!!! info "!worldclock - Tag that outputs varied timezones, of which, can be customized by the user employing the tag. Original, and remake, by Raffael#7777"
 
-    [https://carl.gg/t/60262](https://carl.gg/t/60262)
+    [https://carl.gg/t/91020](https://carl.gg/t/91020)
 
-    _A fail-proof report tag that will DM the user a copy their report, aswell as send it to the designated reports channel. If the user fails to fill the report correctly (by not mentioning a valid target, aswell as not giving some info), s/he'll get a DM informing that the report failed, with the reason for it, and will not post it to the reports channel. To remove the need to mention someone for the command to work, set {=(forcemention):1} to {=(forcemention):0}. Remember to change the value of {chanid} to the reports' channel ID. Tag made by @The Chain Warden#8790, with help from @Raffael#7777, @Dungo#6650 and @PySnow#8836._
+    _User can — Customize whether the image and corresponding legend & footer are shown, choose 12 or 24 hour notation, toggle DST easily, as well as change the codeblock syntax highlighting if they want a different color displayed (or no color at all)._
 
 !!! info "!quote - A way to save quotes from members remake by Asty'#8926"
 
