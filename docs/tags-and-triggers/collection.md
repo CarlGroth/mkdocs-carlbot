@@ -54,10 +54,11 @@ Tags that really showcase how powerful tagscript can be
 
     _A fail-proof report tag that will DM the user a copy their report, aswell as send it to the designated reports channel. If the user fails to fill the report correctly (by not mentioning a valid target, aswell as not giving some info), s/he'll get a DM informing that the report failed, with the reason for it, and will not post it to the reports channel. To remove the need to mention someone for the command to work, set {=(forcemention):1} to {=(forcemention):0}. Remember to change the value of {chanid} to the reports' channel ID. Tag made by @The Chain Warden#8790, with help from @Raffael#7777, @Dungo#6650 and @PySnow#8836._
 
-!!! info "!quote - A way to save quotes from members by vind#6818"
-    [https://carl.gg/t/36651](https://carl.gg/t/36651)
+!!! info "!quote - A way to save quotes from members remake by Asty'#8926"
 
-    _Quote command, deletes original command. Able to quote yourself and others._
+    [https://carl.gg/t/59823](https://carl.gg/t/59823)
+
+    _Usage:`!quote @someone the message` or `!quote the message` (to quote yourself). Deletes original invocation, and produces an embed of the quoted text._
 
 
 !!! info "!cpoll - quickpoll with custom emojis by Dungo#6650"
