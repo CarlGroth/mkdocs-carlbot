@@ -26,19 +26,6 @@
         want commas in the question or answer.</td>
     </tr>
     <tr>
-      <td style="text-align:left">[d|define] &lt;word&gt;</td>
-      <td style="text-align:left">!define well</td>
-      <td style="text-align:left">Shows the oxford dictionary&apos;s definition for the word. Note: due
-        to the length of some definitions it might be a good idea to restrict this
-        command to prevent abuse.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">wolfram</td>
-      <td style="text-align:left">!wa e ^ (pi * i) + 1</td>
-      <td style="text-align:left">This is similar to going to wolframalpha and entering the text yourself.
-        Doesn&apos;t support complicated answers.</td>
-    </tr>
-    <tr>
       <td style="text-align:left">[pick|choice|select] &lt;choices&gt;</td>
       <td style="text-align:left">!choose go to sleep, play overwatch</td>
       <td style="text-align:left">Picks one of your specified arguments. Use commas for multiple words.</td>
@@ -64,29 +51,6 @@
       <td style="text-align:left">!i @Carl#0080</td>
       <td style="text-align:left">Returns Name, last 5 nicknames, id, postcount (that the bot has seen),
         creation date, server join date and some cool information related to these</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">[weather|temp] [location]</td>
-      <td style="text-align:left">!weather stockholm</td>
-      <td style="text-align:left">If no city is specified, it will give you info for your set home. If used
-        for the first time, that city will be set as your home. Since countries
-        don&apos;t have weather (think about it) you have to be more specific.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">temp home &lt;location&gt;</td>
-      <td style="text-align:left">!temp home tampa</td>
-      <td style="text-align:left">Lets you set a city as your home for !temp to default to.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">[nicks|nicknames] [@user]</td>
-      <td style="text-align:left">--</td>
-      <td style="text-align:left">Shows you your nicknames history, duplicates are moved to the end of the
-        list. The names are ordered from oldest to newest.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">setnick &lt;member&gt; &lt;name&gt;</td>
-      <td style="text-align:left">!setnick @Carl#0080 Do not ping</td>
-      <td style="text-align:left">Changes the user&apos;s nickname.</td>
     </tr>
     <tr>
       <td style="text-align:left">dice [sides] [rolls]</td>
@@ -115,16 +79,6 @@
       <td style="text-align:left">serverinfo</td>
       <td style="text-align:left">--</td>
       <td style="text-align:left">Displays server information.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><b>spacemychannel</b>
-        </p>
-        <p><b>&lt;channel&gt;</b>
-        </p>
-      </td>
-      <td style="text-align:left">!spacemychannel #test-channel</td>
-      <td style="text-align:left">Removes the - and _ in channel names replacing with a space.</td>
     </tr>
   </tbody>
 </table>
