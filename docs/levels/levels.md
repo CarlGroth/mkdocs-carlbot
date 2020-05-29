@@ -18,12 +18,19 @@
 | **lvl \[member\]** | -- | Displays the rank card for the member. |
 | **lvl config** | -- | Shows the current configuration.  |
 | **lvl background &lt;link&gt;** | !lvl bg https://i.imgur.com/s1ck3n1ng.png | Changes the background image for !lvl. |
+| **lvl serverbg &lt;link&gt;** | !lvl serverbg https://i.imgur.com/s1ck3n1ng.png | Changes the default server background image for !lvl. |
+| **lvl opacity** | !lvl  opacity 1 | Changes the opacity. |
+| **lvl accent** | !lvl  accent 7289da | Changes the accent color. |
 | **lvl blacklist &lt;entities...&gt;** | !lvl bl #bot-abuse "bot abuser" | Blacklists one or more roles or channels. Messages sent in these channels will be ignored for xp and if a member has one or more of the blacklisted roles they gain no xp anywhere. |
 | **lvl unblacklist &lt;entities...&gt;** | -- | Undoes what !lvl bl does. |
 | **lvl unblacklist &lt;entities...&gt;** | -- | Undoes what !lvl bl does. |
 | **lvl color &lt;color&gt;** | !lvl color eeaaee | Sets the accent color for your rank card. |
 | **lvl mee6import** | -- | Since the bot uses the same xp curve as mee6 you can import your existing mee6 config. Please note that this replaces your current xp. |
 | **lvl rate \[rate\] \[time frame\]** | !lvl rate 5 60 | Changes how often you can gain experience. The example would allow a maximum of 5 xp drops per 60 seconds. |
+| **lvl reset \[member\]** | -- | Resets an individuals XP - this is irrevocable. |
+| **lvl resetall** | -- | This command resets your server but also creates a backup that you can restore. |
+| **lvl restore** | -- | This command restores your levels from backup. |
+| **lvl log** | -- | Shows you the last 25 events that happened in your server. |
 
 ### Level notifications
 
