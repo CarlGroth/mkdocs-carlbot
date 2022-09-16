@@ -21,6 +21,5 @@
 	| :--- | :--- | :--- |
 	| poll &lt;question&gt; | !poll should I sleep? | Creates a yes/no poll where users can vote with reactions. |
 	| quickpoll &lt;question \| answers...&gt; | !quickpoll best game?\| wow \| overwatch \| only losers play games | Use pipes \| or commas to separate the question and answers. The first arg is the question, all after that are individual answers. You can&apos;t mix pipes and commas, pipes are intended for polls where you want commas in the question or answer. |
-	| strawpoll &lt;question \| answers...&gt; | !strawpoll best bot?\| carl-bot \| other inferior bots | Generates a [strawpoll.me](https://www.strawpoll.me/) poll using the question and answers provided, using the same syntax as `quickpoll` |
 
 	![A preview of the types of polls Carl-bot can create](../images/polls.png)
